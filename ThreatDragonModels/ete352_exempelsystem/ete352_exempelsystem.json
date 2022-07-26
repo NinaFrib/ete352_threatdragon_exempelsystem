@@ -967,10 +967,6 @@
             },
             "vertices": [
               {
-                "x": 330,
-                "y": 130
-              },
-              {
                 "x": 350,
                 "y": 140
               },
@@ -1193,16 +1189,16 @@
           },
           {
             "position": {
-              "x": 408.9999999999949,
-              "y": 30.00000000000847
+              "x": 1060,
+              "y": 400
             },
             "size": {
-              "width": 760,
-              "height": 356.24999999999983
+              "width": 128,
+              "height": 60
             },
             "shape": "trust-boundary-box",
+            "id": "cba22838-97d9-4d58-a5bd-50f614e29124",
             "zIndex": 26,
-            "id": "5e2fa426-0f06-45a3-bfa3-fdf70a57cfb5",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
