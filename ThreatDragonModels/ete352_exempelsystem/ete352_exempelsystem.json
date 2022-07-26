@@ -260,14 +260,7 @@
             },
             "id": "3f570ead-930c-4327-a53d-4a23ce811f5e",
             "labels": [
-              {
-                "position": 0.5,
-                "attrs": {
-                  "label": {
-                    "text": "Hanterar"
-                  }
-                }
-              }
+              "Hanterar"
             ],
             "source": {
               "cell": "2416816b-0715-46f0-9c2c-6af4ad269c36"
@@ -867,48 +860,6 @@
             "zIndex": 10,
             "connector": "smooth",
             "labels": [
-              "Extern tjänst"
-            ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Extern tjänst",
-              "description": "Hämtar info från skatteverket",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "c89ae132-ff8b-4eea-9b17-a42da37306f9",
-            "source": {
-              "x": 510,
-              "y": 350
-            },
-            "target": {
-              "x": 710,
-              "y": 370
-            },
-            "vertices": [
-              {
-                "x": 650,
-                "y": 340
-              },
-              {
-                "x": 670,
-                "y": 340
-              }
-            ]
-          },
-          {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "labels": [
               {
                 "attrs": {
                   "text": {
@@ -932,70 +883,6 @@
             "target": {
               "x": 730,
               "y": 130
-            }
-          },
-          {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "labels": [
-              ""
-            ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "ba8352c2-d016-4928-ae3d-5a94efea95c4",
-            "source": {
-              "x": 310,
-              "y": 110
-            },
-            "target": {
-              "x": 470,
-              "y": 410
-            },
-            "vertices": [
-              {
-                "x": 350,
-                "y": 140
-              },
-              {
-                "x": 370,
-                "y": 170
-              },
-              {
-                "x": 400,
-                "y": 230
-              },
-              {
-                "x": 430,
-                "y": 280
-              },
-              {
-                "x": 430,
-                "y": 310
-              }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
           },
           {
@@ -1189,16 +1076,36 @@
           },
           {
             "position": {
-              "x": 1060,
-              "y": 400
+              "x": 449.9999999999998,
+              "y": 30.000000000003894
             },
             "size": {
-              "width": 128,
-              "height": 60
+              "width": 690,
+              "height": 323.4375
             },
             "shape": "trust-boundary-box",
-            "id": "cba22838-97d9-4d58-a5bd-50f614e29124",
             "zIndex": 26,
+            "id": "cba22838-97d9-4d58-a5bd-50f614e29124",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 827,
+              "y": 19.0625
+            },
+            "size": {
+              "width": 260,
+              "height": 121.875
+            },
+            "shape": "trust-boundary-box",
+            "id": "4e40e057-d884-4e79-97dc-01de148e5d08",
+            "zIndex": 27,
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
